@@ -1,0 +1,114 @@
+/* Estilos generales para el cuerpo */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a31b91; /* Color de fondo para el cuerpo */
+    
+}
+
+.imgtitulo{
+    float: left; /* Hace que la imagen flote a la izquierda del texto */
+    max-width: 150px; /* Establece el ancho máximo de la imagen */
+    margin-right: 600px; /* Espaciado entre la imagen y el texto */
+    margin-left: 200px;
+    
+}
+
+.contenido{
+    font-size: 2vw;
+}
+/* Estilos para el contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255); /* Color de fondo para el contenedor principal */
+    padding: 0px;
+    overflow: hidden;
+}
+.contenedor2 {
+    width: 80%;
+    margin: px;
+    background-color: rgb(255, 255, 255); /* Color de fondo para el contenedor principal */
+    padding:200px;
+    overflow: hidden;
+} 
+
+
+/* Estilos para la barra de navegación */
+nav { 
+    background-color: rgb(18, 212, 225);
+    margin: auto;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+/* Estilos para el cuadro con esquinas redondas */
+.cuadro {
+    height: 80px;
+    background-color: rgb(16, 236, 115);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;margin: 20px;
+
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(18, 212, 225);
+    padding: 20px;
+}
+
+
+img {
+    
+    float: left; /* Hace que la imagen flote a la izquierda del texto */
+    max-width: 400px; /* Establece el ancho máximo de la imagen */
+    margin-right: 400px; /* Espaciado entre la imagen y el texto */
+    
+}
+
+h1, p {
+    margin: 0; /* Elimina los márgenes predeterminados */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
